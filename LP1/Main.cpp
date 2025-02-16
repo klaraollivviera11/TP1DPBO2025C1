@@ -33,7 +33,7 @@ int main(){
             temp.set_harga(harga);
             listProduk.push_back(temp);
 
-            cout << "Data berhasil dimasukan.\n\n";
+            cout << "Data berhasil ditambahkan.\n\n";
         }else if(pilihan == 2){//lihat
             if(listProduk.empty()){
                 cout << "Tidak ada produk.\n\n";
@@ -64,6 +64,8 @@ int main(){
                     i->set_kategori(kategori);
                     i->set_harga(harga);
 
+                    cout << "Data berhasil diubah.\n\n";
+                    
                     found = 1;
                 }else{
                     ++i;
