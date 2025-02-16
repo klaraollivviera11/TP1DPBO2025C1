@@ -58,7 +58,6 @@ int main(){
                     cout << "Nama: "; cin >> nama;
                     cout << "Kategori: "; cin >> kategori; 
                     cout << "Harga: "; cin >> harga;
-                    cout << "\n";
 
                     i->set_nama(nama);
                     i->set_kategori(kategori);
@@ -106,6 +105,8 @@ int main(){
             list<Petshop>::iterator i = listProduk.begin();
             while(i != listProduk.end() && found == 0){
                 if(i->get_id() == target){
+                    cout << "ID produk ditemukan.\n";
+                    cout << "ID: " << i->get_id() << "\nNama: " << i->get_nama() << "\nKategori: " << i->get_kategori() << "\nHarga: " << i->get_harga() << "\n" << endl;
                     found = 1;
                 }else{
                     ++i;
@@ -114,8 +115,6 @@ int main(){
 
             if(found == 0){
                 cout << "ID produk tidak ditemukan.\n\n";
-            }else{
-                cout << "ID produk ditemukan.\n\n";
             }
         }
     }while(pilihan != 6);
