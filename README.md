@@ -11,15 +11,20 @@ Berisikan atribut-atribut berikut:
 5. Foto (untuk PHP)
 
 # Alur Program
-- Program dieksekusi berdasarkan format eksekusi masing-masing bahasa
+- Program dieksekusi berdasarkan format eksekusi masing-masing bahasa.
 - User diminta untuk memasukan pilihan menu, yang terdiri dari:
-  1. Tambah -> untuk menambahkan data
-  2. Lihat -> untuk menampilkan seluruh data
-  3. Edit -> untuk mengubah data
-  4. Hapus -> untuk menghapus data
-  5. Cari -> untuk mencari data
-  6. Keluar -> untuk keluar program
-- 
+1. Tambah -> untuk menambahkan data
+2. Lihat -> untuk menampilkan seluruh data
+3. Edit -> untuk mengubah data
+4. Hapus -> untuk menghapus data
+5. Cari -> untuk mencari data
+6. Keluar -> untuk keluar program
+- Menu yang dimasukan yaitu **angka** dari menu yang dipilih.
+- ID digunakan sebagai primary key, maka terdapat kondisi yang perlu diperhatikan:
+1. ID yang diberikan harus unik dan berbeda untuk setiap produk.
+2. Setiap menu Edit, Hapus, Cari user memasukan ID data dan ID harus terdaftar dalam daftar produk, apabila tidak, maka program akan menampilkan pesan "ID produk tidak ditemukan."
+- Program akan terus berjalan hingga user memilih menu Keluar.
+   
 # Dokumentasi
 ## JAVA
 <img width="639" alt="Screenshot 2025-02-23 at 07 38 23" src="https://github.com/user-attachments/assets/b545c63c-4062-4c8f-b817-d8607843e552" />
