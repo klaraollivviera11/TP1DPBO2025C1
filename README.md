@@ -15,3 +15,6 @@ Saya Klara Ollivviera Augustine Gunawan dengan NIM 2306205 mengerjakan soal Tuga
 <img width="647" alt="Screenshot 2025-02-23 at 07 44 46" src="https://github.com/user-attachments/assets/eed25bb5-fdeb-43ed-9a7a-773d5c3fb66e" />
 <img width="647" alt="Screenshot 2025-02-23 at 07 44 58" src="https://github.com/user-attachments/assets/80871892-2e64-4b6d-b7eb-75ea5fa60c3f" />
 
+## PHP
+<img width="1440" alt="Screenshot 2025-02-23 at 07 50 03" src="https://github.com/user-attachments/assets/8c71580b-dfbc-427b-8f35-10a9abc77731" />
+<img width="1440" alt="Screenshot 2025-02-23 at 07 50 07" src="https://github.com/user-attachments/assets/266db30a-28c8-46c6-a1df-6be3bcd5dbe8" />
